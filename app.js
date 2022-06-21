@@ -6,6 +6,13 @@ const mongoose = require("mongoose");
 const { inflateRaw } = require("zlib");
 const _ = require("lodash");
 const date = require(__dirname + "/date.js");
+var router = express.Router();
+
+router.get('/', function(req, res, next) {
+    res.render('viewusers', { title: 'Express' });
+});
+
+module.exports = router;
 
 const app = express();
 
