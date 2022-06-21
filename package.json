@@ -1,14 +1,16 @@
 {
   "name": "todolist-v1",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "deploy": "npm run build && npm publish --access public",
-    "build": "npm version patch"
+     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node":"16.15.1"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
