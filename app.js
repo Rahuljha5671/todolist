@@ -9,7 +9,7 @@ const date = require(__dirname + "/date.js");
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-    res.render('viewusers', { title: 'Express' });
+    res.render('viewusers.ejs');
 });
 
 module.exports = router;
